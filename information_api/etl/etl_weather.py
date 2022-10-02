@@ -6,7 +6,7 @@ import yaml
 
 DEFAULT_TIMEOUT = 10
 
-API_KEY = yaml.safe_load(open(file='information_api/etl/apikeys.yml', encoding='utf-8').read())['openweathermap']
+API_KEY = yaml.safe_load(open(file='etl/apikeys.yml', encoding='utf-8').read())['openweathermap']
 
 def _get_position_by_name(name: str):
     url = 'http://api.openweathermap.org/geo/1.0/direct?'
