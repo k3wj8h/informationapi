@@ -58,3 +58,8 @@ def get_weather():
         'weather_' + city.lower() : weather_flow(position=position, city=city)
     }
     return info_dict
+
+
+# main loop to run app
+if __name__ == '__main__':
+    app.run()
