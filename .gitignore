@@ -1,7 +1,7 @@
 # .gitignore
 __pycache__
 venv
-env
-etl/apikeys.yml
 .vscode
 test.py
+information_api/etl/apikeys.yml
+information_api/etl/apikeys.yml
